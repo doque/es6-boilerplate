@@ -9,7 +9,7 @@
     "test:watch": "mocha -r babel-register -w --watch-extensions js,jsx",
     "test:watch:all": "mocha  -r babel-register -w --reporter dot test/**/*.spec.js",
     "test:cov": "nyc npm run test",
-    "test:cov:report": "npm run clean && nyc --reporter html npm run test",
+    "test:cov:report": "nyc --reporter html npm run test",
     "test:cov:show": "open coverage/index.html"
   },
   "repository": {
